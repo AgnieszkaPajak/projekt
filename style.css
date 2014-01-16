@@ -1,0 +1,262 @@
+body{
+    color: #314030;
+    background-color: #627F60;
+    font-family: Georgia;
+   
+}
+body h1{
+    font-size: 14pt;
+    font-family: Verdana;
+    font-style: normal;
+    color: #4c1a6a;
+}
+body a{
+    color: #751e93;
+    text-decoration: none;
+}
+body a:hover{
+    color: #db581d;
+}
+body ul{
+    list-style: none;
+}
+header{
+    background-image: url(images/mapka.png);
+    font-family: Rosewood Std Regular;
+    font-size: xx-large;
+    padding: 15px;
+    text-align: right;
+    color:white;
+}
+#kat{
+	background-image: url(images/transgreen.png);
+}
+#kat h1{
+	background-color: #93BF91;
+}
+#kat i{
+	background-color: #93BF91;
+}
+#container{
+    width: 90%;
+    margin:  0 auto;
+}
+header h1{
+    font-family: Georgia;
+     font-size: 12pt;
+     color: #fff;
+}
+#opis{
+    width: 99%;
+    margin: 0px 0 0px 0;
+  
+	background-color: #93BF91;
+    text-align: center;
+    padding: 6px;
+    float: left;
+    clear:  right;
+    text-align: center;
+}
+#dane{
+	margin-left:38%;
+	width:300px;
+	height:175px;
+	background-image: url(images/card.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+    padding: 6px;
+	padding-top:20px;
+    float: left;
+    clear:  right;
+    text-align: center;
+}
+.zmien{
+	position: fixed;
+	text-decoration: none;
+    text-align: left;
+    padding: 7px;
+    width:  136px;
+    height:  17px;
+    background-image: url(images/guzik1.png);
+	margin-top:175px;
+	margin-left:-250px;
+}
+#formularz{
+	float:left;
+	background-image: url(images/transgreen.png);
+	margin-left:38%;
+}
+#map {
+    height: 360px; 
+    width: 70%;
+    margin:  5px auto;
+}
+
+#menu{
+   background-image: url(images/tlo.png);
+    float: left;
+    clear:  both;
+    margin-top: 0px;
+    width: 100%;
+}
+#mapa{
+    background-color: #B0E5AE;
+    float: left;
+    width: 54%;
+    
+    text-align: center;
+}
+#galeria{
+    float: left;
+    width: 46%;
+    height: 419px; 
+    background-color: #C4FFC1;
+    text-align: center;
+}
+nav{
+   margin-left: -70px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+#menu .linki{
+    display: inline-block;
+    color: #751e93;
+    text-decoration: none;
+    text-align: left;
+    padding: 7px;
+    width:  136px;
+    height:  17px;
+    background-image: url(images/guzik1.png);
+}
+
+#menu .linki:hover{
+    color: #db581d;
+    background-image: url(images/guzik2.png);
+}
+#galeria1{
+    margin:  0 auto;
+}
+#loguj{
+    background-image: url(images/background2.jpg);
+    float: left;
+    width: 98%;    
+    text-align: center;
+    margin: 0px auto;
+    padding: 1%;
+}
+#logform{
+    background-image: url(images/transwhite.png);
+    padding: 2px;
+}
+#regiform{
+    background-image: url(images/transgreen.png);
+    padding: 2px;
+}
+#regiform td{
+	background-color: #93BF91;
+}
+
+div#search {
+    
+  position: absolute;
+  top: 106px;
+  right: 5%;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+div#search input {
+  width: 125px;
+}
+div#results {
+  color: black;
+  font-size: 75%;
+  
+  float: left;
+  width: auto;
+}
+div#results a{
+    text-decoration: none;
+}
+#gal{
+	margin: 0 auto;
+	border: 1px solid green;
+}
+#gal td{
+	border: 1px solid lime;
+}
+.tabgal{
+	margin: 0 auto;
+	border: 1px solid green;
+	background-color: #93BF91;
+}
+.tabgal td{
+	border: 1px solid lime;
+}
+.greenButton{
+    background-image: url(images/guzik1.png);
+}
+.greenButton:hover{
+    background-image: url(images/guzik3.png);
+}
+.guzik{
+	display: inline-block;
+	text-align: left;
+    padding: 7px;
+    width:  136px;
+    height:  17px;
+    background-image: url(images/guzik1.png);
+	
+}
+.guzikFlip{
+	display: inline-block;
+	text-align: right;
+    padding: 7px;
+    width:  136px;
+    height:  17px;
+    background-image: url(images/guzik1flip.png);
+	
+}
+#kategorie{
+    margin: 33px 0 0 30%;
+    position: fixed;
+    background-image: url(images/green-floral.png);
+    width:  200px;
+    padding: 5px;
+    display: none;
+}
+
+#kategorie li{
+    margin-left: -20px;
+    background-image: url(images/transwhite.png);
+}
+#galerie{
+    margin: 33px 0 0 30%;
+    position: fixed;
+    background-image: url(images/green-floral.png);
+    width:  200px;
+    padding: 5px;
+    display: none;
+}
+
+#galerie li{
+    margin-left: -20px;
+    background-image: url(images/transwhite.png);
+}
+.miniaturki{
+	width:50px;
+	height:50px;
+}
+#hidden{
+	display: none;
+}
+#colors{
+	display: inline;
+	float: right;
+}
+#colors a:hover{
+	background-image: url(images/colors/color1d.png);
+}
