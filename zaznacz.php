@@ -38,7 +38,7 @@ var miasta = new Array();
 
     </head>
     <body onload="initmap([50.0297212, 19.91294]);">
-        <header>Individual project <h1> &copy Agnieszka Pająk</h1></header>
+        <header>Galery on map <h1> &copy Agnieszka Pająk</h1></header>
         <div id="container">
             <section id="menu">
                <?php
