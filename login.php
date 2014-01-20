@@ -27,7 +27,7 @@ $_SESSION['user'] = new User();
 ?>
 </head>
 <body>
-<header>Individual project <h1> &copy Agnieszka Pająk</h1></header>
+<header>Galery on map <h1> &copy Agnieszka Pająk</h1></header>
         <div id="container">
             <section id="menu">
                <?php
